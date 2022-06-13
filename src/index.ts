@@ -19,7 +19,7 @@ const roles = ["Competitive Programmer", "Web Developer", "Web Designer", "Data 
 const rest = new REST({ version: "9" }).setToken(TOKEN)
 
 const clientId = "983257022751445032"
-const guildId = "784324077342031933"
+const guildId = "983268245547147294"
 
 const addRole = (interaction: any, roleName: string) => {
   const role = interaction?.guild?.roles?.cache.find((role: any) => role.name === roleName)
